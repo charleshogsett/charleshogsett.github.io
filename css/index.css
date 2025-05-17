@@ -1,0 +1,186 @@
+   
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #757171;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-image: linear-gradient(#c9d8f4, rgb(119, 127, 219));
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h1,
+        h2 {
+            color: #060606;
+            text-align: center; 
+        }
+        .header {
+            text-align: center;
+        }
+        .header h1 {
+            margin: 10px 0;
+        }
+        .contact {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-items: center;
+            justify-content: center;
+                flex-wrap: wrap;
+            background-image: linear-gradient(rgb(119, 127, 219), #c9d8f4);  
+         
+            
+    border-color: #000000;  
+    border-width: medium;
+        }
+        .contact p {
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            justify-content: center;
+            lin: gray;
+    color: rgb(0, 0, 0);
+    margin: 10px 0;
+    padding: 10px;
+    width: 270px;
+    border-radius: 50px;
+    border-color: #000000;
+    text-align: center;
+            white-space: nowrap;
+            background-image: linear-gradient(#c9d8f4, rgb(119, 127, 219));
+        }
+        .contact a {
+            color: black
+            text-decoration: none;
+        }
+        .section {
+            margin: 20px 0;
+
+        }
+        .summary{
+            background-image: linear-gradient(#c9d8f4, rgb(119, 127, 219));
+            outline: 1px solid black;
+             border-radius: 20px;
+             padding: 10px;
+                          margin: 15px;
+
+        }
+        .section h2 {
+            margin-bottom: 10px;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 5px;
+        }
+        .item {
+  background-image: linear-gradient(#c9d8f4, rgb(119, 127, 219));
+            outline: 1px solid black;             
+            border-radius: 20px;
+             padding: 10px;
+             margin: 15px;
+        }
+        .item h3 {
+            margin: 0;
+            font-size: 18px;
+            color: #555;
+        }
+
+.item ul {
+  margin: 5px 20px;             /* eliminate spacing from elements */
+  padding: 0;            /* prevent any internal gap */
+  line-height: 1.4;      /* reduce tall text spacing */
+}
+        .job{
+            display: flex;
+            justify-content: space-between;
+                            flex-wrap: wrap;
+
+        }
+        .item p {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+        .skills ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills ul li {
+            display: inline-block;
+            background: black;
+            color: #fff;
+            padding: 5px 10px;
+            margin: 5px 5px 5px 0;
+            border-radius: 4px;
+        }
+
+@media (min-width: 800px){
+
+ body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+          
+        }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h1,
+        h2 {
+            text-align: left;
+        }
+        .header {
+            text-align: center;
+            
+        }
+        .header h1 {
+            margin: 10px 0;
+        }
+        .contact {
+            margin: 10px 0;
+            font-size: 14px;
+        }
+        .contact a {
+            text-decoration: none;
+        }
+        .section {
+            margin: 20px 0;
+        }
+        .section h2 {
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+        }
+        .item {
+            margin-bottom: 15px;
+        }
+        .item h3 {
+            margin: 0;
+            font-size: 18px;
+        }
+        .item p {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+        .skills ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills ul li {
+            display: inline-block;
+            padding: 5px 10px;
+            margin: 5px 5px 5px 0;
+            border-radius: 4px;
+        }
+
+
+
+
+}
